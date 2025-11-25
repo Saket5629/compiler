@@ -27,12 +27,12 @@
     domain: "www.chatbase.co"
     }
     </script>
-    <script
+    <!-- <script
     src="https://www.chatbase.co/embed.min.js"
     chatbotId="V0BI1j9ZM9A1WJg11adCN"
     domain="www.chatbase.co"
     defer>
-    </script>
+    </script> -->
   <style>
   </style>
 </head>
@@ -116,7 +116,7 @@
     input:input.value,
     lang:option.value
     }
-    var oData = await fetch("http://localhost:3000/compile",{
+    var oData = await fetch("/compile",{
       method:"POST",
       headers:{
         "Content-Type":"application/json"
